@@ -212,7 +212,14 @@ figcaption:not(.figcaption) {
 		margin: 0 auto;
 	}
 }
-
+@media only screen and (max-width: 374px) {
+	.otherBooks-photo {
+		margin: 0 auto;
+	}
+	.figcaption {
+		margin: 0 auto;
+	}
+}
 
 /* Footer */
 #footer {
