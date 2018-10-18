@@ -204,8 +204,12 @@ figcaption:not(.figcaption) {
 	}
 }
 @media only screen and (max-width: 400px) {
+	.otherBooks-photo {
+		margin: 0 auto;
+	}
 	.figcaption {
 		padding-left: 62px;
+		margin: 0 auto;
 	}
 }
 
